@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 1rem auto;
+    max-width: 700px;
+    font-size: 23px;
+    box-shadow: rgba(11, 44, 49, 0.16) 0px 3px 6px, rgba(11, 44, 49, 0.23) 0px 3px 6px;
+}
+
+.convert-form {
+    padding: 1.5rem 3rem;
+
+}
+
+.convert-form>div {
+    margin-bottom: 1.2rem;
+}
+
+label,
+span, .display {
+    display: block;
+    margin-bottom: .5rem;
+    text-align: center;
+    padding: .7rem;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.degree input {
+    font-size: 19px;
+    border: 1px solid black;
+}
+
+#degree-type,
+#convert-type{
+    color: rgb(44, 44, 229);
+}
+
+.input-degree,
+#degree-type,
+#convert-type,
+.convert-btn {
+    padding: .5rem;
+    font-size: 1.2rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-degree {
+    width: 97%;
+}
+
+.convert-btn {
+    align-self: flex-end;
+    background-color: rgb(39, 71, 227);
+    color: white;
+}
+
+.error {
+    font-size: 1rem;
+    padding: 3px;
+    color: red;
+}
+
+.display-result {
+    text-align: center;
+}
